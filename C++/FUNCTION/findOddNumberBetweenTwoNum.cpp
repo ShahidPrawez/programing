@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 bool odd(int n){
-    if(n%2==0){
-        return false;
+    if(n%2!=0){
+        return true;
     }
     else{
-        return true;
+        return false;
     }
 }
 int main(){
@@ -14,7 +14,7 @@ int main(){
     cin>>a;
     cout<<"Enter second number : ";
     cin>>b;
-    for(int i=1;i<=b;i++){
+    for(int i=a;i<=b;i++){
     if(odd(i)){ 
         cout<<i<<" ";
     }

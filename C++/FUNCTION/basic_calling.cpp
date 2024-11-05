@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 string welcome(string name){
-    return "welcome"+name;
+    return "hii"+name;
 }
 int main(){
-    string str = welcome(" shahid");
-    cout<<str;
+   string name=welcome("  shahid");
+   cout<<name;
 }

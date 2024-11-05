@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-bool odd(int n){
+bool even(int n){
     if(n%2==0){
         return true;
     }
@@ -14,8 +14,8 @@ int main(){
     cin>>a;
     cout<<"Enter second number : ";
     cin>>b;
-    for(int i=1;i<=b;i++){
-    if(odd(i)){ 
+    for(int i=a;i<=b;i++){
+    if(even(i)){ 
         cout<<i<<" ";
     }
     }
